@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    //For each category we want to add we just put it here and in value>>strings as a variable
+
+    <item
+        android:id="@+id/pop_movies"
+        android:title="@string/pop_mov"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/top_movies"
+        android:title="@string/top_mov"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+</menu>
