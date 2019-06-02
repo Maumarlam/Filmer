@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FF0000</color>      //Headline banner color
-    <color name="colorPrimaryDark">#7F00FF</color>      //System color
-
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">@android:color/black</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="movie_overview_text_color">@android:color/black</color>
+    <color name="movie_review_text_color">@android:color/black</color>
+    <color name="red">#F44336</color>
 </resources>

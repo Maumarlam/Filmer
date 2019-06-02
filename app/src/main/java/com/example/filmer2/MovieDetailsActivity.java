@@ -15,7 +15,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_movie_detail);
+        setContentView(R.layout.movie_details);
         Intent intent = getIntent();
         Movie mov_intent = (Movie)        intent.getSerializableExtra("detail");
     }
